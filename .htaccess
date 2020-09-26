@@ -1,0 +1,4 @@
+PassengerNodejs /home/r/russkiydom/.local/bin/node
+PassengerAppRoot /home/r/russkiydom/wedding.victoria.ru
+PassengerAppType node
+PassengerStartupFile app.js

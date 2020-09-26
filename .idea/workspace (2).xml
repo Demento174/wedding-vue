@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1c62c4c-32cb-45ad-bea6-9fd61f7c9716" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="48c8c2b8-906c-4c22-b07e-e4b087279395" />
+  <component name="ProjectId" id="1hd15mx0RYiXXVcDhdcUD4jUYnY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-wedding" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1c62c4c-32cb-45ad-bea6-9fd61f7c9716" name="Default Changelist" comment="" />
+      <created>1600325975294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600325975294</updated>
+      <workItem from="1600325976348" duration="353000" />
+      <workItem from="1600326339763" duration="811000" />
+      <workItem from="1600502807942" duration="3041000" />
+      <workItem from="1600506864230" duration="855000" />
+      <workItem from="1600508958450" duration="447000" />
+      <workItem from="1600509415857" duration="10919000" />
+      <workItem from="1600600336568" duration="8749000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2945" y="214" width="905" height="677" key="#Deployment" timestamp="1600509348867">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2945" y="214" width="905" height="677" key="#Deployment/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600509348867" />
+    <state x="2943" y="214" width="804" height="677" key="#Options" timestamp="1600508807586">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2943" y="214" width="804" height="677" key="#Options/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600508807586" />
+    <state x="2833" y="130" width="1024" height="845" key="#Project_Structure" timestamp="1600325980066">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2833" y="130" width="1024" height="845" key="#Project_Structure/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600325980066" />
+    <state x="2924" y="201" width="832" height="704" key="#SSH_Configurations" timestamp="1600509113471">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2924" y="201" width="832" height="704" key="#SSH_Configurations/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600509113471" />
+    <state x="3133" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600510087049">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3133" y="310" width="424" height="484" key="FileChooserDialogImpl/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600510087049" />
+    <state x="2839" y="187" key="SettingsEditor" timestamp="1600605139891">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2839" y="187" key="SettingsEditor/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600605139891" />
+    <state x="3246" y="266" width="187" height="573" key="ftp.server.browser" timestamp="1600509347806">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3246" y="266" width="187" height="573" key="ftp.server.browser/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600509347806" />
+    <state x="2659" y="222" width="1372" height="660" key="new project wizard" timestamp="1600506594323">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2659" y="222" width="1372" height="660" key="new project wizard/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600506594323" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="adb6cd68-62b8-47a2-bdda-55ec10f8fbf9" name="wedding.victoria.ru(beget)" url="http://russkiydom.beget.tech">
+        <fileTransfer rootFolder="/wedding.victoria.ru" host="russkiydom.beget.tech" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

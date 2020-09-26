@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1c62c4c-32cb-45ad-bea6-9fd61f7c9716" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vue.config.js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/less/import/media.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/restart.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/less/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Calculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calculator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormCallback.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormCallback.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hall.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hall.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Presents.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Presents.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Service.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Service.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SliderHalls.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SliderHalls.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SliderPhoto_1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SliderPhoto_1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SliderPhoto_2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SliderPhoto_2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SliderRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SliderRow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SliderServices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SliderServices.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/button-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/fb-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/fullimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/fullimg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/fullimg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/fullimg7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/gallery/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/gallery/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/gallery/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/gallery/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/gallery/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/gallery/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/gallery/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/heart-pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/heart-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/icon-clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/icon-metka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/icon-phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/icon-photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/img-map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/imgsgg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/imgsv1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/imgsv2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/imgsvv1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/imgsvv2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/imgsvv3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/imgsvv4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/imgsvvg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/present1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/present2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/present3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/row-left-slick-old.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/row-left-slick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/row-left-slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/row-right-slick-old.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/row-right-slick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/row-right-slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/sert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/sert2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/sert3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/images/vk-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/public/libs/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/Classes/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/MyriadPro-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/MyriadPro-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/MyriadPro-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/MyriadPro-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/MyriadPro-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/MyriadPro-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/less/import/common.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/less/import/fonts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/less/import/hall.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/less/import/service.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/less/import/sliders.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/less/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/bus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/AdditionalServices.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/Calculator.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/FormCallback.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/Hall.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/Intro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/Map.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/Modal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/Presents.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/Service.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/SliderHalls.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/SliderPhoto_1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/SliderPhoto_2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/SliderRow.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/components/SliderServices.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/tmp/restart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding-vue/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="48c8c2b8-906c-4c22-b07e-e4b087279395" />
+  <component name="ProjectId" id="1hd15mx0RYiXXVcDhdcUD4jUYnY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1c62c4c-32cb-45ad-bea6-9fd61f7c9716" name="Default Changelist" comment="" />
+      <created>1600325975294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600325975294</updated>
+      <workItem from="1600325976348" duration="353000" />
+      <workItem from="1600326339763" duration="811000" />
+      <workItem from="1600502807942" duration="3041000" />
+      <workItem from="1600506864230" duration="855000" />
+      <workItem from="1600508958450" duration="447000" />
+      <workItem from="1600509415857" duration="10919000" />
+      <workItem from="1600600336568" duration="8328000" />
+      <workItem from="1600695524534" duration="4454000" />
+      <workItem from="1600770053614" duration="5803000" />
+      <workItem from="1600854032976" duration="6603000" />
+      <workItem from="1600933196041" duration="41000" />
+      <workItem from="1600948204790" duration="8658000" />
+      <workItem from="1601026958272" duration="9757000" />
+      <workItem from="1601103763879" duration="11106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2945" y="214" width="905" height="677" key="#Deployment" timestamp="1600509348867">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2945" y="214" width="905" height="677" key="#Deployment/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600509348867" />
+    <state x="2943" y="214" width="804" height="677" key="#Options" timestamp="1600508807586">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2943" y="214" width="804" height="677" key="#Options/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600508807586" />
+    <state x="2833" y="130" width="1024" height="845" key="#Project_Structure" timestamp="1600325980066">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2833" y="130" width="1024" height="845" key="#Project_Structure/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600325980066" />
+    <state x="2924" y="201" width="832" height="704" key="#SSH_Configurations" timestamp="1600509113471">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2924" y="201" width="832" height="704" key="#SSH_Configurations/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600509113471" />
+    <state x="3133" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600933220315">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3133" y="310" width="424" height="484" key="FileChooserDialogImpl/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600933220315" />
+    <state x="2839" y="187" key="SettingsEditor" timestamp="1601103900196">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2839" y="187" key="SettingsEditor/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1601103900196" />
+    <state x="1024" y="0" width="1366" height="601" key="dock-window-1" timestamp="1601027350338">
+      <screen x="1024" y="0" width="1366" height="768" />
+    </state>
+    <state x="1024" y="0" width="1366" height="601" key="dock-window-1/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1601027350338" />
+    <state x="3041" y="291" width="618" height="522" key="find.popup" timestamp="1601115619818">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3041" y="291" width="618" height="522" key="find.popup/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1601115619818" />
+    <state x="3246" y="266" width="187" height="573" key="ftp.server.browser" timestamp="1600509347806">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3246" y="266" width="187" height="573" key="ftp.server.browser/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600509347806" />
+    <state x="2659" y="222" width="1372" height="660" key="new project wizard" timestamp="1600933237127">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2659" y="222" width="1372" height="660" key="new project wizard/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600933237127" />
+    <state x="3075" y="455" width="540" height="194" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600695541186">
+      <screen x="2390" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3075" y="455" width="540" height="194" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/2390.0.1920.1080/0.27.1024.741/1024.0.1366.768@2390.0.1920.1080" timestamp="1600695541186" />
+  </component>
+</project>

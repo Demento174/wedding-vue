@@ -31,16 +31,19 @@ Vue.config.productionTip = false;
 
 (async function  (){
   let domain = window.location.origin.replace(/(^\w+:|^)\/\//, '');
-  // domain = 'wedding.russkiydom.beget.tech';
+  // domain = 'previsokov.russkiydom.beget.tech';
   let data = await Axios.get(`http://api-wedding.russkiydom.beget.tech/wp-json/wedding/v1/domain-data/?arg_str=${domain}`);
   data = data.data.data;
   if(data)
   {
     if(data.metrika.id)
     {
+
       Vue.use(VueYandexMetrika, {
         id: data.metrika.id,
-        // env: process.env.NODE_ENV
+        router: router,
+        env: 'production',
+        debug:true,
       })
     }
 

@@ -13,7 +13,7 @@
         <div class="col-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
           <div class="block bg-form">
             <form @submit.prevent="sendEmail">
-              <input type="text" data-name="phone" name="phone" placeholder="Ваш контактный телефон" class="phone_input" required="">
+              <input type="text" data-name="phone" name="phone" v-phone-mask="'+7(___)___-__-__'" placeholder="Ваш контактный телефон" class="phone_input" required="">
               <input type="date" data-name="date" name="date" placeholder="Введите дату свадьбы (необязательно)" class="date_input" ref="inputDate">
               <input type="hidden" name="block" value="callback">
               <input class="send_form" type="submit" value="Получить консультацию" name="mail" data-form="feedback" data-inputs=".phone_input,.date_input" onclick="ym(64491307,'reachGoal','form_planning')">
@@ -28,17 +28,22 @@
 
 <script>
   import {bus} from "@/bus";
+  import PhoneMask from 'vue-phone-mask';
 
   export default {
     props:['id','title','subtitle','offers','sendGoal','goal','formCompleate'],
     mounted() {
       this.minValueDate(!this.$refs.inputDate.length?[this.$refs.inputDate]:this.$refs.inputDate)
     },
+    directives: {
+      'phone-mask': PhoneMask
+    },
     methods:{
       sendEmail: function(e){
         let domain = window.location.origin.replace(/(^\w+:|^)\/\//, '');
         let form = new FormData(e.target);
         form.append('domain', domain);
+        form.append('block', 'Форма с Блока "Какую свадьбу Вы планируете?"');
 
         // fetch('http://wedding-api.com/mail.php', {
 

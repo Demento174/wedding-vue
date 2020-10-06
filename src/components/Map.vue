@@ -1,7 +1,12 @@
 <template>
   <section class="map" :id="id">
     <yandex-map :settings="settings" :coords="coords" style="width: 100%;height: 100%">
-      <!--Markers-->
+      <ymap-marker
+          marker-id="1"
+          marker-type="Placemark"
+          :coords="coords"
+
+      />
     </yandex-map>
     <div v-show="this.shadow" class="shadow" @click="setShadow(false)">{{ title }}</div>
   </section>
@@ -33,7 +38,7 @@ export default {
 }
 </script>
 
-<style lang="less"scoped>
+<style lang="less" scoped>
 .map{
   height: 450px;
   position: relative;

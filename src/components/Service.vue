@@ -15,7 +15,7 @@
         </div>
       </div>
 
-      <div class="more" v-on:click="showContent = !showContent" v-text="showHideContent(`Показать подробности`)"></div>
+      <div class="more" v-on:click="moreBtn($parent)" v-text="showHideContent(`Показать подробности`)"></div>
 
     </div>
 
@@ -47,6 +47,7 @@ import '@/assets/less/import/service.less'
 import { bus } from '@/bus.js'
 export default {
   props:{
+    // parent:Node,
     title:String,
     anons:String,
     content:String,
@@ -67,6 +68,31 @@ export default {
   methods: {
     showHideContent(value) {
       return this.showContent?'Скрыть':value
+    },
+    moreBtn(parent)
+    {
+      this.showContent = !this.showContent
+
+      if(this.showContent === false)
+      {
+
+        let theElement = parent.$el;
+        let selectedPosX = 0;
+        let selectedPosY = 0;
+
+        while (theElement != null) {
+
+          selectedPosX += theElement.offsetLeft;
+
+          selectedPosY += theElement.offsetTop-50;
+
+          theElement = theElement.offsetParent;
+        }
+
+        window.scrollTo(selectedPosX,selectedPosY);
+
+      }
+
     },
     setServiceInModal: (service,goal)=>{
 

@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12">
           <div class="block">
-            <h1 v-html="title" :style="{'color:':`${textcolor}`}"></h1>
+            <h1 v-html="title" :style="{'color':titlecolor}"></h1>
             <span></span>
           </div>
         </div>
@@ -18,12 +18,13 @@ export default {
   props: {
     'title':String,
     'backgroundImg':String,
-    'textcolor':String,
+    'titlecolor':String,
     id:{
       required:true,
       type:String
     }
   },
+
   computed:{
     getBackground:function (){
 
@@ -43,6 +44,7 @@ export default {
     background-position: center;
     background-size:cover;
     margin-bottom:80px;
+    margin-top: 124px;
     .container,  .row {
       position:relative;
       height:100%;

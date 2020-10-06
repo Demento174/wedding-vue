@@ -41,6 +41,7 @@
                     v-bind:anonsList="service.anonsList"
                     v-bind:btn="service.btn"
 
+
                     v-bind:goal="goal"
                     ref="Service"
                 />

@@ -42,7 +42,7 @@
                       @change="changeSerivce"
                       class="checkbox-custom dops_box"
                       type="checkbox"
-                      v-bind:pricePresent="service.pricePresent.simple"
+                      v-bind:pricePresent="service.no_present?'false':service.pricePresent.simple"
                       v-bind:title="service.title"
                       v-bind:present="`false`"
                       v-model="servicesModel"
@@ -90,7 +90,7 @@
                 </div>
               </div>
               <div class="presents">
-                <h6>Вы получаете подарки от отеля «Vision»</h6>
+                <h6 v-if="presentTitle">{{ presentTitle }}</h6>
                 <div class="gift-list" ref="presentsList">
                   <div class="gift" data-id="">
 
@@ -100,10 +100,15 @@
             </div>
             <div class="item two">
               <form class="sendform" @submit.prevent="sendEmail">
-                <h5>Хотите обсудить это со свадебным менеджером отеля "Vision"?</h5>
-                <input type="text" placeholder="Ваш контактный телефон" name="phone" class="calculation_phone" required>
+                <h5 v-if="formTitle">{{ formTitle }}</h5>
+                <input type="tel" v-phone-mask="'+7(___)___-__-__'" placeholder="Ваш контактный телефон" name="phone" class="calculation_phone" required>
                 <input type="submit" value="Да, перезвоните мне" class="send_form" data-form="calculation">
-                <input type="hidden" name="block" value="callme">
+                <input type="hidden" name="block" value="calculate">
+                <input type="hidden" name="guests" :value="this.guestsModel">
+                <input type="hidden" name="check" :value="this.checkModel">
+                <input type="hidden" name="date" :value="this.dateModel">
+                <input type="hidden" name="budget" :value="this.resultModel">
+
                 <h4 class="modal-title form_compleate">{{ formCompleate }}</h4>
               </form>
             </div>
@@ -117,9 +122,27 @@
 <script>
 
 import {getParent} from "@/Classes/functions";
+import PhoneMask from 'vue-phone-mask';
 
 export default {
-  props:['id','title','guests', 'guest_min', 'guest_max', 'checks','services','halls','pricePresentMode','sendGoal','goal','formCompleate','shadow'],
+  props:
+      [
+        'id',
+        'title',
+        'guests',
+        'guest_min',
+        'guest_max',
+        'checks',
+        'services',
+        'halls',
+        'pricePresentMode',
+        'sendGoal',
+        'goal',
+        'formCompleate',
+        'shadowVariable',
+        'formTitle',
+        'presentTitle'
+      ],
   data(){
     let date = new Date()
     let year = date.getFullYear()
@@ -133,15 +156,55 @@ export default {
       resultModel:'0',
       servicesModel:[],
       today:`${year}-${month}-${day}`,
-      // shadow:true,
+      shadow:this.shadowVariable,
     }
+  },
+  directives: {
+    'phone-mask': PhoneMask
   },
   methods:{
     sendEmail: function(e){
       let domain = window.location.origin.replace(/(^\w+:|^)\/\//, '');
       let form = new FormData(e.target);
-      form.append('domain', domain);
-      console.log(form)
+
+      let presents = [];
+      let halls = [];
+      let services  = [];
+
+      if(this.$refs.presentsList.querySelectorAll('div').length>0)
+      {
+
+        this.$refs.presentsList.querySelectorAll('div').forEach(item =>
+        {
+          console.log(item.innerText);
+          if(item.innerText)
+          {
+            presents.push(item.innerText)
+          }
+        })
+      }
+
+      if(this.$refs.halls.querySelectorAll('div'))
+      {
+        this.$refs.halls.querySelectorAll('div').forEach(item =>{halls.push(item.innerText)})
+      }
+
+      let servicesBlocks = !this.$refs.service.length?[this.$refs.service]:this.$refs.service
+
+      servicesBlocks.forEach(service=>{
+          if(service.getAttribute('present')=='false' && service.checked==true)
+          {
+              services.push(service.parentElement.querySelector('span').innerText)
+          }
+      })
+
+      form.append('domain', this.guestsModel);
+      form.append('presents', presents);
+      form.append('halls', halls);
+      form.append('services', services);
+
+
+
       this.sendGoal(this.goal)
       // fetch('http://wedding-api.com/mail.php', {
       fetch('http://api-wedding.russkiydom.beget.tech/mail.php', {
@@ -160,19 +223,31 @@ export default {
 
       switch (this.pricePresentMode){
         case 'week':
-            services.forEach((service,index)=>{
+          services.forEach((service,index)=>{
+
+            if(service.getAttribute('pricePresent') !=='false')
+            {
               service.setAttribute('pricepresent',this.services[index]['pricePresent'][this.pricePresentMode][this.getWeekDay(value)])
+            }
+
             })
             break;
         case 'month':
           services.forEach((service,index)=>{
+            if(service.getAttribute('pricePresent') !=='false')
+            {
+              service.setAttribute('pricepresent',this.services[index]['pricePresent'][this.pricePresentMode][this.getMonth(value)])
+            }
 
-            service.setAttribute('pricepresent',this.services[index]['pricePresent'][this.pricePresentMode][this.getMonth(value)])
           })
           break;
         default:
           services.forEach((service,index)=>{
-            service.setAttribute('pricepresent',this.services[index]['pricePresent'][this.pricePresentMode])
+            if(service.getAttribute('pricePresent') !=='false')
+            {
+              service.setAttribute('pricepresent',this.services[index]['pricePresent'][this.pricePresentMode])
+            }
+
           })
           break;
       }
@@ -211,7 +286,7 @@ export default {
 
         let btn = getParent(service, '.bl').querySelector('.btn_receive_gift')
 
-        if (Number(service.getAttribute('pricePresent')) <= this.resultModel)
+        if (Number(service.getAttribute('pricePresent')) <= this.resultModel && service.getAttribute('pricePresent') !== 'false')
           {
             btn.style.display = 'block'
           }
@@ -547,7 +622,7 @@ export default {
             margin-bottom:24px;
             text-align:center;
           }
-          input[type="text"] {
+          input[type="tel"] {
             width:100%;
             height:40px;
             margin-bottom:20px;

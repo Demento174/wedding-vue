@@ -68,8 +68,10 @@
 
     <Calculator v-if="data != undefined && data.calculate.hide !== true"
         v-bind:id="`calculator`"
-        v-bind:shadow="data.calculate.shadow"
+        v-bind:shadowVariable="data.calculate.shadow"
         v-bind:title="data.calculate.title"
+        v-bind:formTitle="data.calculate.form_title"
+        v-bind:presentTitle="data.calculate.present_title"
         v-bind:guest="data.calculate.guests"
         v-bind:guest_min="data.calculate.guests.min"
         v-bind:guest_max="data.calculate.guests"
@@ -128,11 +130,14 @@
     <Footer v-if="data != undefined"
       v-bind:address="data.footer.address"
       v-bind:phone="data.footer.phone"
-      v-bind:hours="data.footer.hours"
+      v-bind:hours="data.footer.housr"
       v-bind:email="data.footer.email"
       v-bind:social="data.footer.social"
     />
-    <Modal/>
+    <Modal
+        v-bind:response="data.modal.response_text"
+        v-bind:sendGoal="this.sendGoal"
+    />
   </div>
 </template>
 
@@ -228,27 +233,31 @@ export default {
     }
   },
   methods : {
-    fetchData($domain = 'default') {
-      fetch('http://vsvetesil.uxp.ru/wedding_api.com/wp-json/wedding/v1/domain-data/?arg_str=' + $domain)
-          // await fetch('http://wedding-api.com/wp-json/wedding/v1/domain-data/?arg_str=' + $domain)
-          .then((response) => {
-            return response.json()
-          })
-          .then((json) => {
-            // console.log(json)
-            if (json.success == true) {
-              this.data = json.data
-              // this.orders = json.data.orders
-            } else {
-              this.fetchData()
-            }
-          })
-    },
+    // fetchData($domain = 'default') {
+    //   fetch('http://vsvetesil.uxp.ru/wedding_api.com/wp-json/wedding/v1/domain-data/?arg_str=' + $domain)
+    //       // await fetch('http://wedding-api.com/wp-json/wedding/v1/domain-data/?arg_str=' + $domain)
+    //       .then((response) => {
+    //         return response.json()
+    //       })
+    //       .then((json) => {
+    //         // console.log(json)
+    //         if (json.success == true) {
+    //           this.data = json.data
+    //           // this.orders = json.data.orders
+    //         } else {
+    //           this.fetchData()
+    //         }
+    //       })
+    // },
     sendGoal(goal=''){
+      console.log(this.data.metrika.id,goal);
       if(this.data.metrika.id === '' || goal === '')
       {
-        return false;
+        return true;
       }
+      console.log(this.$metrika.reachGoal(goal));
+
+
 
     }
   },

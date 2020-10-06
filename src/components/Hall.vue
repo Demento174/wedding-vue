@@ -23,12 +23,12 @@
     </div>
 
     <div class="item-bottom">
-      <div class="item">
+      <div class="item" v-if="file_banket!== false">
         <a :href="`${file_banket}`" target="_blank">
           <button class="banquet-menu">Смотреть банкетное меню</button>
         </a>
       </div>
-      <div class="item">
+      <div class="item" v-if="file_furshet !== false">
         <a :href="`${file_furshet}`" target="_blank">
           <button class="banquet-menu">Смотреть фуршетное меню</button>
         </a>
@@ -49,17 +49,16 @@ import { bus } from '@/bus.js'
 
 export default {
   name:'Hall',
-  props:{
-    title:String,
-    imgs:Array,
-    guests:String,
-    minPrice:String,
-    characters:Array,
-    file_furshet:String,
-    file_banket:String,
-    goal:String,
-
-  },
+  props:[
+      'title',
+      'imgs',
+      'guests',
+      'minPrice',
+      'characters',
+      'file_furshet',
+      'file_banket',
+      'goal',
+  ],
 
   methods:{
     setHallInModal: (hall,goal,modal)=>{

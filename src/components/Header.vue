@@ -87,7 +87,7 @@ export default {
     width: 100%;
     position: fixed;
     padding: 15px 0;
-    z-index: 99;
+    z-index: 101;
     transition: all 0.5s;
     background: #fff;
     &.sticky{

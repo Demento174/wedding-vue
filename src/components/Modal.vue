@@ -9,12 +9,12 @@
           <h4 class="modal-title">Отправить заявку</h4>
           <div class="form">
             <form @submit.prevent="sendEmail">
-              <input type="text" name="phone"  placeholder="Ваш контактный телефон" required v-model="phoneModel">
+              <input type="tel" name="phone"  v-phone-mask="'+7(___)___-__-__'" placeholder="Ваш контактный телефон" required v-model="phoneModel">
               <input type="date"  name="date" placeholder="Введите дату свадьбы (необязательно)" ref="inputDate" v-model="dateModel">
               <input type="hidden" name="block"  v-model="blockModel">
               <input type="hidden" name="goal"  v-model="goal">
               <input class="send_form" type="submit" value="Отправить" data-form="feedback" >
-              <h4 class="modal-title form_compleate">Заявка успешно отправлена</h4>
+              <h4 class="modal-title form_compleate">{{ response }}</h4>
             </form>
           </div>
         </div>
@@ -26,8 +26,9 @@
 <script>
 import { bus } from '@/bus.js'
 import $ from 'jquery';
+import PhoneMask from 'vue-phone-mask';
 export default {
-
+  props:['response','sendGoal'],
   data(){
     return{
         phoneModel:'',
@@ -37,12 +38,13 @@ export default {
 
     }
   },
+  directives: {
+    'phone-mask': PhoneMask
+  },
   mounted() {
     this.minValueDate(!this.$refs.inputDate.length?[this.$refs.inputDate]:this.$refs.inputDate)
     bus.$on('set-hall', (block)=>{this.blockModel = block;})
     bus.$on('set-goal', (goal)=>{this.goal = goal;})
-
-
   },
 
   methods:{
@@ -53,12 +55,16 @@ export default {
       form.append('domain', domain);
 
       // fetch('http://wedding-api.com/mail.php', {
-      fetch('http://vsvetesil.uxp.ru/wedding_api.com/mail.php', {
+      fetch('http://api-wedding.russkiydom.beget.tech/mail.php', {
         method: 'post',
         body: form,
       })
 
-      $('#modal_hall').modal('hide');
+      this.sendGoal(this.goal);
+      document.querySelector('.modal input.send_form').style.display = 'none';
+      document.querySelector('.modal .form_compleate').style.display = 'block';
+      setTimeout(()=>{$('#modal_hall').modal('hide');},2000)
+
     },
     minValueDate:function (inputs){
       let date = new Date()
@@ -69,9 +75,7 @@ export default {
       inputs.forEach(input=>input.min=`${year}-${month}-${day}`)
       this.dateModel = `${year}-${month}-${day}`
     },
-    // setHall(hall){
-    //   console.log(hall);
-    // }
+
   }
 }
 </script>

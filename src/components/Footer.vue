@@ -73,7 +73,7 @@ footer {
       justify-content: center;
     }
   }
-  .location-footer img,phone-footer img,.worktime-footer img{
+  .location-footer img,.phone-footer img,.worktime-footer img{
     margin: -3px 20px 0 0;
   }
   .social{
